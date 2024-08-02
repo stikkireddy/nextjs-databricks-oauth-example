@@ -52,9 +52,9 @@ This is designed for workspaces and not the account console oauth.
 
 1. NEXTAUTH_SECRET - This is a secret key that is used to encrypt the cookies
 2. NEXTAUTH_URL - This is the URL of the NextJS app; next auth uses this to generate the callback url for redirects
-3. AUTHORIZATION_URL=https://<workspace-host>/oidc/v1/authorize - This is the authorization url for the Databricks workspace
-4. TOKEN_URL=https://<workspace-host>/oidc/v1/token - This is the token url for the Databricks workspace
-5. USER_INFO_SCIM_ME_URL=https://<workspace-host>/api/2.0/preview/scim/v2/Me - This is the user info url for the Databricks workspace
+3. AUTHORIZATION_URL=https://workspace-host/oidc/v1/authorize - This is the authorization url for the Databricks workspace
+4. TOKEN_URL=https://workspace-host/oidc/v1/token - This is the token url for the Databricks workspace
+5. USER_INFO_SCIM_ME_URL=https://workspace-host/api/2.0/preview/scim/v2/Me - This is the user info url for the Databricks workspace
 6. CLIENT_ID - This is the client id of the Databricks app
 7. CLIENT_SECRET - This is the client secret of the Databricks app
 
